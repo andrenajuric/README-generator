@@ -2,7 +2,38 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ${generateDescription(data.description)}
+
+  ## Table of Contents
+
+  * [Installation]
+
+  * [Usage]
+
+  * [License]
+  
+  * [Contributing]
+
+  * [Tests]
+
+  * [Questions]
+
+  ## Installation
+
+  
+
 `;
 }
 
-module.exports = generateMarkdown;
+function generateDescription(description) {
+  return `## Description
+
+  ${description}`;
+}
+
+console.log(generateMarkdown({
+  title: "Testing",
+  description: "Testing description"
+}));
+
+// module.exports = generateMarkdown;
