@@ -20,8 +20,6 @@ function generateMarkdown(data) {
 
   ## Installation
 
-  
-
 `;
 }
 
@@ -31,9 +29,4 @@ function generateDescription(description) {
   ${description}`;
 }
 
-console.log(generateMarkdown({
-  title: "Testing",
-  description: "Testing description"
-}));
-
-// module.exports = generateMarkdown;
+module.exports = generateMarkdown;
