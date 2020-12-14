@@ -29,6 +29,16 @@ const questions = [
         message: 'Select open-source license:',
         choices: ['MIT', 'Apache 2.0', 'BSD'],
         name: 'license',
+    },
+    {
+        type: 'input',
+        message: 'What is a good email address to contact you?',
+        name: 'email',
+    },
+    {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'github',
     }
 ];
 
