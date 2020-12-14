@@ -1,3 +1,19 @@
+const inquirer = require('inquirer');
+
+inquirer
+    .prompt([
+        {
+            type: 'input',
+            message: 'What is your user name?',
+            name: 'username',
+        },
+        {
+            type: 'password',
+            message: 'What is your password?',
+            name: 'password',
+        }
+    ])
+
 // array of questions for user
 const questions = [
 
