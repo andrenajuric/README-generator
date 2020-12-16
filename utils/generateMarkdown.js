@@ -17,7 +17,7 @@ function generateMarkdown(data) {
 
   * [Usage](#usage)
 
-  * ![Demo](#demo)
+  * [Demo](#demo)
 
   * [License](#license)
 
