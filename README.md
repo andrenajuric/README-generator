@@ -27,6 +27,7 @@
   After cloning the repo to your local computer, you must install node modules and packages. In the terminal, navigate to the project folder and type: "npm init -y", "npm i" to install the node modules. Once everything is correctly installed, you should be able to run the program by typing "node index.js"
 
 
+
   ## Location
 
   * [GitHub Repository](https://github.com/andrenajuric/readme-generator)
@@ -37,7 +38,7 @@
 
   ## Screenshot
 
-  (./img/screenshot.png)
+  ![screenshot](img\screenshot.png)
 
   ## Demo
 
@@ -65,11 +66,11 @@
 
   ## Contribution
   
-  This project was built by Andrena Juric. If you'd like to collaborate, you may clone the repo and make a pull request. 
+  This project was built by Andrena Juric. If you'd like to collaborate, you may clone the repo and make a pull request.
 
   ## Contact Info
 
-  You may contact me via email or connect with me via GitHub if you have any questions
+  You may contact me via email or GitHub if you have any questions.
 
   * Email: ajuric.uw@gmail.com. 
   * GitHub: andrenajuric.

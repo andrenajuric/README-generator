@@ -41,7 +41,7 @@ function generateMarkdown(data) {
 
   ## Screenshot
 
-  (${data.screenshot})
+  ![screenshot](${data.screenshot})
 
   ## Demo
 
