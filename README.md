@@ -1,4 +1,4 @@
-# README Generator  undefined
+# README Generator  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://choosealicense.com/licenses/apache-2.0/)
 
   ## Description 
 
@@ -20,7 +20,7 @@
 
   * [Contact](#contact)
 
-    ## Installation
+  ## Installation
   
   After cloning the repo to your local computer, you must install node modules and packages. In the terminal, navigate to the project folder and type: "npm init -y", "npm i" to install the node modules. Once everything is correctly installed, you should be able to run the program by typing "node index.js"
 
@@ -62,7 +62,7 @@
 
   ## Contact Info
 
-  You may email me or connect with me via GitHub if you have any questions.
+  You may contact me via email or GitHub if you have any questions.
 
   * Email: ajuric.uw@gmail.com. 
   * GitHub: andrenajuric.

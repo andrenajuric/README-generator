@@ -32,6 +32,11 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'Are there any images you would like to include?',
+        name: 'screenshot',
+    },
+    {
+        type: 'input',
         message: 'Please provide a link to to your live demo: ',
         name: 'demo',
         default: 'N/A',

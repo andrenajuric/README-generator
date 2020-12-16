@@ -17,6 +17,8 @@ function generateMarkdown(data) {
 
   * [Usage](#usage)
 
+  * [Screenshot](#screenshot)
+
   * [Demo](#demo)
 
   * [License](#license)
@@ -36,6 +38,10 @@ function generateMarkdown(data) {
   ## Usage
 
   ${data.usage}
+
+  ## Screenshot
+
+  (${data.screenshot})
 
   ## Demo
 
