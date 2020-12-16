@@ -1,7 +1,7 @@
 // require 'inquirer' package & fs module
 const inquirer = require('inquirer');
 const fs = require('fs');
-
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user
 const questions = [
@@ -56,6 +56,11 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
 
+    fs.writeFile(fileName, data, (err) => {
+        if (err) throw err;
+        console.log('Success!');
+        // console.log(fs.readFile('README.md', 'utf8'));
+    })
 }
 
 // function to initialize program
@@ -63,9 +68,13 @@ function init() {
     inquirer
         .prompt(questions)
         .then(response => {
-            const generateMarkdown = require('./utils/generateMarkdown.js');
+            console.log('Your README file is being generated...');
 
-            const content = generateMarkdown(response);
+            console.log(response);
+
+            let data = { response }
+
+            writeToFile('README.md', generateMarkdown(data));
 
         })
 }
