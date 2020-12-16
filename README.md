@@ -12,7 +12,7 @@
 
   * [Usage](#usage)
 
-  * ![Demo](#demo)
+  * [Demo](#demo)
 
   * [License](#license)
 
@@ -20,7 +20,7 @@
 
   * [Contact](#contact)
 
-  ## Installation
+    ## Installation
   
   After cloning the repo to your local computer, you must install node modules and packages. In the terminal, navigate to the project folder and type: "npm init -y", "npm i" to install the node modules. Once everything is correctly installed, you should be able to run the program by typing "node index.js"
 

@@ -25,7 +25,7 @@ function generateMarkdown(data) {
 
   * [Contact](#contact)
 
-    ## Installation
+  ## Installation
   
   ${data.installation}
 
@@ -156,7 +156,7 @@ function licenseInfo(data) {
 function licenseBadge(data) {
   if (data === 'MIT') {
     return `[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)`
-  } else if (data === 'Apache-2.0') {
+  } else if (data === 'Apache 2.0') {
     return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://choosealicense.com/licenses/apache-2.0/)`
   } else if (data === 'BSD-3-Clause') {
     return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://choosealicense.com/licenses/bsd-3-clause/)`
