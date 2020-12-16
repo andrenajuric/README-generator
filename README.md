@@ -1,45 +1,70 @@
-# undefined
+# README Generator  undefined
 
   ## Description 
-  
-  undefined
+
+  Auto-generates a README file based on users' input
 
   ## Table of Contents
 
   * [Installation](#installation)
 
-  *[Demo](#demo)
+  * [Location](#location)
+
+  * [Usage](#usage)
+
+  * ![Demo](#demo)
 
   * [License](#license)
 
-  * [Contributors](#contributors)
-
-  * [Tests](#tests)
+  * [Contribution](#contribution)
 
   * [Contact](#contact)
 
   ## Installation
   
-  undefined
+  After cloning the repo to your local computer, you must install node modules and packages. In the terminal, navigate to the project folder and type: "npm init -y", "npm i" to install the node modules. Once everything is correctly installed, you should be able to run the program by typing "node index.js"
 
   ## Location
 
-  * [GitHub Repository](https://github.com/undefined/readme-generator)
+  * [GitHub Repository](https://github.com/andrenajuric/readme-generator)
+
+  ## Usage
+
+  After you've installed the necessary node modules and packages, you must enter "node index.js" to run the program in the terminal. You will be asked a series of questions about your project that will be used to generate the markdown file. For some questions that may require more room than others, your default editor will oepn up so that you may type as much as you desire. Once you've answered all the questions, you will see a console.log that says "Success!" and your README.md file will appear in your project folder.
 
   ## Demo
 
+  * [Live Demo](N/A)
+
   ## License
 
-  ## Contributors
+  License Apache 2.0 
+
+  Copyright 2020  Andrena Juric
+
+  ```
+  Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+ 
+        http://www.apache.org/licenses/LICENSE-2.0
+ 
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+  ```
+
+  ## Contribution
   
-  undefined
-
-  ## Tests
-
-  undefined
+  This project was built by Andrena Juric. If you'd like to collaborate, you may clone the repo and make a pull request. 
 
   ## Contact Info
 
-  If you have any questions, you can email me at: undefined. Or, you can connect with me on GitHub. My username is undefined.
+  You may email me or connect with me via GitHub if you have any questions.
+
+  * Email: ajuric.uw@gmail.com. 
+  * GitHub: andrenajuric.
 
   

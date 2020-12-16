@@ -11,30 +11,57 @@ const questions = [
         name: 'title',
     },
     {
-        type: 'editor',
+        type: 'input',
         message: 'Please provide a description of your project:',
         name: 'description',
     },
     {
         type: 'editor',
-        message: 'What is the user story?',
-        name: 'story',
+        message: 'Please provide installation instructions:',
+        name: 'installation',
+    },
+    {
+        type: 'input',
+        message: 'Please provide your GitHub username: ',
+        name: 'github'
     },
     {
         type: 'editor',
-        message: 'What is the acceptance criteria?',
-        name: 'criteria',
+        message: 'How to use the program?',
+        name: 'usage',
     },
     {
-        type: 'checkbox',
-        message: 'Select open-source license:',
-        choices: ['MIT', 'Apache 2.0', 'BSD'],
+        type: 'input',
+        message: 'Please provide a link to to your live demo: ',
+        name: 'demo',
+        default: 'N/A',
+    },
+    {
+        type: 'list',
+        message: 'Please select a license from the following list: ',
+        choices: [
+            'MIT',
+            'Apache 2.0',
+            'BSD-3-Clause',
+            'BSD-2-Clause',
+        ],
         name: 'license',
     },
     {
-        type: 'editor',
-        message: 'Please provide installation instructions:',
-        name: 'installation',
+        type: 'input',
+        message: 'Please enter your full name for the license: ',
+        name: 'name',
+    },
+    {
+        type: 'input',
+        message: 'Please enter the year for the license: ',
+        name: 'year',
+        default: '2020',
+    },
+    {
+        type: 'input',
+        message: 'Contribution: ',
+        name: 'contribution',
     },
     {
         type: 'input',
@@ -45,11 +72,6 @@ const questions = [
         type: 'input',
         message: 'What is a good email address to contact you?',
         name: 'email',
-    },
-    {
-        type: 'input',
-        message: 'What is your GitHub username?',
-        name: 'github',
     }
 ];
 
@@ -72,7 +94,7 @@ function init() {
 
             console.log(response);
 
-            let data = { response }
+            let data = response;
 
             writeToFile('README.md', generateMarkdown(data));
 
