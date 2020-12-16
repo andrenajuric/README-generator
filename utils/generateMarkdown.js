@@ -3,7 +3,7 @@ function generateMarkdown(data) {
 
   console.log(data);
 
-  return `# ${data.title}  ${licenseBage(data.license)}
+  return `# ${data.title}  ${licenseBadge(data.license)}
 
   ## Description 
 
@@ -25,7 +25,7 @@ function generateMarkdown(data) {
 
   * [Contact](#contact)
 
-  ## Installation
+    ## Installation
   
   ${data.installation}
 
@@ -67,6 +67,7 @@ function generateMarkdown(data) {
 function licenseInfo(data) {
 
   if (data === 'MIT') {
+
     return `Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
@@ -84,7 +85,9 @@ function licenseInfo(data) {
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE. `
+
   } else if (data === 'Apache 2.0') {
+
     return `Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
@@ -96,7 +99,9 @@ function licenseInfo(data) {
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.`
+
   } else if (data === 'BSD-3-Clause') {
+
     return `Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions are met:
     
@@ -121,7 +126,9 @@ function licenseInfo(data) {
     CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
     OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
     OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`
+
   } else if (data === 'BSD-2-Clause') {
+
     return `Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions are met:
     
@@ -146,7 +153,7 @@ function licenseInfo(data) {
 
 }
 
-function licenseBage(data) {
+function licenseBadge(data) {
   if (data === 'MIT') {
     return `[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)`
   } else if (data === 'Apache-2.0') {
