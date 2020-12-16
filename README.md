@@ -34,7 +34,7 @@
 
   ## Demo
 
-  * [Live Demo](N/A)
+  * [Live Demo](https://www.awesomescreenshot.com/video/2096965?key=4d0e9710489a8e34f4f3b30a331302c8)
 
   ## License
 
